@@ -1,0 +1,15 @@
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\bin\Debug\net6.0\Lab1SD125.exe
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\bin\Debug\net6.0\Lab1SD125.deps.json
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\bin\Debug\net6.0\Lab1SD125.runtimeconfig.json
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\bin\Debug\net6.0\Lab1SD125.dll
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\bin\Debug\net6.0\Lab1SD125.pdb
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\obj\Debug\net6.0\Lab1SD125.csproj.AssemblyReference.cache
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\obj\Debug\net6.0\Lab1SD125.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\obj\Debug\net6.0\Lab1SD125.AssemblyInfoInputs.cache
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\obj\Debug\net6.0\Lab1SD125.AssemblyInfo.cs
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\obj\Debug\net6.0\Lab1SD125.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\obj\Debug\net6.0\Lab1SD125.dll
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\obj\Debug\net6.0\ref\Lab1SD125.dll
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\obj\Debug\net6.0\Lab1SD125.pdb
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\obj\Debug\net6.0\Lab1SD125.genruntimeconfig.cache
+C:\Users\Muhammad Musab\Desktop\Lab1SD125\Lab1SD125\obj\Debug\net6.0\refint\Lab1SD125.dll
