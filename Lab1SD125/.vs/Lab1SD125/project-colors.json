@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d54c30c7-b303-4c1b-a47f-21b6c93c5c0d": {
+      "ProjectGuid": "d54c30c7-b303-4c1b-a47f-21b6c93c5c0d",
+      "DisplayName": "Lab1SD125",
+      "ColorIndex": 0
+    },
+    "751dc6f5-0259-4c84-89da-d92e3b8251e4": {
+      "ProjectGuid": "751dc6f5-0259-4c84-89da-d92e3b8251e4",
+      "DisplayName": "Lab1SD125UnitTesting",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
