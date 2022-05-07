@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muhammad Musab\\Desktop\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj": {}
+    "C:\\Users\\Muhammad Musab\\Desktop\\SD-125-Labs\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muhammad Musab\\Desktop\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj": {
+    "C:\\Users\\Muhammad Musab\\Desktop\\SD-125-Labs\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammad Musab\\Desktop\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj",
+        "projectUniqueName": "C:\\Users\\Muhammad Musab\\Desktop\\SD-125-Labs\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj",
         "projectName": "ParkoMatikDB",
-        "projectPath": "C:\\Users\\Muhammad Musab\\Desktop\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj",
+        "projectPath": "C:\\Users\\Muhammad Musab\\Desktop\\SD-125-Labs\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj",
         "packagesPath": "C:\\Users\\Muhammad Musab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammad Musab\\Desktop\\ParkoMatikDB\\ParkoMatikDB\\obj\\",
+        "outputPath": "C:\\Users\\Muhammad Musab\\Desktop\\SD-125-Labs\\ParkoMatikDB\\ParkoMatikDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muhammad Musab\\AppData\\Roaming\\NuGet\\NuGet.Config",

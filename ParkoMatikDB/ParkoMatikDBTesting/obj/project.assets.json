@@ -8249,11 +8249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muhammad Musab\\Desktop\\ParkoMatikDB\\ParkoMatikDBTesting\\ParkoMatikDBTesting.csproj",
+      "projectUniqueName": "C:\\Users\\Muhammad Musab\\Desktop\\SD-125-Labs\\ParkoMatikDB\\ParkoMatikDBTesting\\ParkoMatikDBTesting.csproj",
       "projectName": "ParkoMatikDBTesting",
-      "projectPath": "C:\\Users\\Muhammad Musab\\Desktop\\ParkoMatikDB\\ParkoMatikDBTesting\\ParkoMatikDBTesting.csproj",
+      "projectPath": "C:\\Users\\Muhammad Musab\\Desktop\\SD-125-Labs\\ParkoMatikDB\\ParkoMatikDBTesting\\ParkoMatikDBTesting.csproj",
       "packagesPath": "C:\\Users\\Muhammad Musab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muhammad Musab\\Desktop\\ParkoMatikDB\\ParkoMatikDBTesting\\obj\\",
+      "outputPath": "C:\\Users\\Muhammad Musab\\Desktop\\SD-125-Labs\\ParkoMatikDB\\ParkoMatikDBTesting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Muhammad Musab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8270,8 +8270,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Muhammad Musab\\Desktop\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj": {
-              "projectPath": "C:\\Users\\Muhammad Musab\\Desktop\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj"
+            "C:\\Users\\Muhammad Musab\\Desktop\\SD-125-Labs\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj": {
+              "projectPath": "C:\\Users\\Muhammad Musab\\Desktop\\SD-125-Labs\\ParkoMatikDB\\ParkoMatikDB\\ParkoMatikDB.csproj"
             }
           }
         }
