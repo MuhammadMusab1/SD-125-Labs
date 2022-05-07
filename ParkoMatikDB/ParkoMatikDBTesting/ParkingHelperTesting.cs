@@ -12,6 +12,7 @@ namespace ParkoMatikDBTesting
     public class ParkingHelperTesting
     {
         private Mock<ParkingContext> MockParkingContext { get; set; }
+        private Mock<DbSet<ParkingSpot>> MockParkingSpotDbSet { get; set; }
         [TestInitialize]
         public void Initialize()
         {
@@ -72,11 +73,24 @@ namespace ParkoMatikDBTesting
             mockPassSet.As<IQueryable<Pass>>().Setup(m => m.ElementType).Returns(AllPasses.ElementType);
             mockPassSet.As<IQueryable<Pass>>().Setup(m => m.GetEnumerator()).Returns(AllPasses.GetEnumerator());
 
+            var AllParkingSpots = new List<ParkingSpot>()
+            {
+                mockParkingSpot1,
+                mockParkingSpot2,
+            }.AsQueryable();
+
+            MockParkingSpotDbSet = new Mock<DbSet<ParkingSpot>>();
+            MockParkingSpotDbSet.As<IQueryable<ParkingSpot>>().Setup(m => m.Provider).Returns(AllParkingSpots.Provider);
+            MockParkingSpotDbSet.As<IQueryable<ParkingSpot>>().Setup(m => m.Expression).Returns(AllParkingSpots.Expression);
+            MockParkingSpotDbSet.As<IQueryable<ParkingSpot>>().Setup(m => m.ElementType).Returns(AllParkingSpots.ElementType);
+            MockParkingSpotDbSet.As<IQueryable<ParkingSpot>>().Setup(m => m.GetEnumerator()).Returns(AllParkingSpots.GetEnumerator());
+
 
             MockParkingContext = new Mock<ParkingContext>();
 
             MockParkingContext.Setup(context => context.Vehicles).Returns(mockVehicleSet.Object);
             MockParkingContext.Setup(context => context.Passes).Returns(mockPassSet.Object);
+            MockParkingContext.Setup(context => context.ParkingSpots).Returns(MockParkingSpotDbSet.Object);
 
 
             //If there are no “Current” Reservation relationships on the ParkingSpot and Vehicle, the system creates a new “Current” one.
@@ -109,6 +123,17 @@ namespace ParkoMatikDBTesting
             Assert.ThrowsException<Exception>(() =>
             helper.CreatePass("aman", false, -10)); //capacity is zero
 
+        }
+        [TestMethod]
+        public void CreateParkingSpotMethodWorks()
+        {
+            //Arrange
+            ParkingHelper helper = new ParkingHelper(MockParkingContext.Object);
+
+            //Act and Assert
+            ParkingSpot newSpot = helper.CreateParkingSpot();
+            MockParkingSpotDbSet.Verify(mockSet => mockSet.Add(It.IsAny<ParkingSpot>()), Times.Once());
+            MockParkingContext.Verify(context => context.SaveChanges(), Times.Once());
         }
 
     }

@@ -85,6 +85,7 @@ namespace ParkoMatikDB.Models
             newSpot.Occupied = false;
 
             parkingContext.ParkingSpots.Add(newSpot);
+            parkingContext.SaveChanges();
             return newSpot;
         }
     }
