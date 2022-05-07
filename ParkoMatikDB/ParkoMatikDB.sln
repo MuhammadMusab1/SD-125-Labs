@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkoMatikDB", "ParkoMatikDB\ParkoMatikDB.csproj", "{27FA74E9-CD43-4986-867B-B710B8BCD6C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkoMatikDBTesting", "ParkoMatikDBTesting\ParkoMatikDBTesting.csproj", "{A6C7FC1D-D058-43E1-BF96-C307827C7CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27FA74E9-CD43-4986-867B-B710B8BCD6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FA74E9-CD43-4986-867B-B710B8BCD6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FA74E9-CD43-4986-867B-B710B8BCD6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FA74E9-CD43-4986-867B-B710B8BCD6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C7FC1D-D058-43E1-BF96-C307827C7CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C7FC1D-D058-43E1-BF96-C307827C7CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C7FC1D-D058-43E1-BF96-C307827C7CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C7FC1D-D058-43E1-BF96-C307827C7CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {326E42E8-6F14-454C-A75B-82C12FFB7ED7}
+	EndGlobalSection
+EndGlobal
